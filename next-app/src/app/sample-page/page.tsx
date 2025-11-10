@@ -1,5 +1,4 @@
 import { Metadata } from 'next';
-import Navigate to=" from '@/components/Navigate to="';
 
 export const metadata: Metadata = {
   title: 'Sample Page',
