@@ -475,7 +475,7 @@ const Media = () => {
             <ScrollAnimationWrapper direction="bottom" delay={200}>
               <div className="relative w-full aspect-video rounded-2xl overflow-hidden shadow-sm sm:shadow-lg">
                 <video ref={videoRef} poster={promotionalVideoThumbnail} className="w-full h-full object-cover" controls>
-                  <source src={promotionalVideo} type="video/mp4" />
+                  <source src="/promotional-video.mp4" type="video/mp4" />
                   Your browser does not support the video tag.
                 </video>
           
@@ -1063,7 +1063,7 @@ const Media = () => {
             <ScrollAnimationWrapper direction="bottom" delay={200}>
               <div className="relative w-full aspect-video rounded-2xl overflow-hidden shadow-sm sm:shadow-lg">
                 <video className="w-full h-full object-cover" controls>
-                  <source src={anhart4Steps} type="video/mp4" />
+                  <source src="/anhart4steps.mp4" type="video/mp4" />
                   Your browser does not support the video tag.
                 </video>
                 
