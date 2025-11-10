@@ -108,7 +108,6 @@ const SUPABASE_URL = "https://hxqbbyglhubcgfkbqltu.supabase.co";
 const SUPABASE_PUBLISHABLE_KEY = "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6Imh4cWJieWdsaHViY2dma2JxbHR1Iiwicm9sZSI6ImFub24iLCJpYXQiOjE3NTcyNzYzMDMsImV4cCI6MjA3Mjg1MjMwM30.xP7GYGbjKOUI5OcvUWwOwX0EYlVeqP44rnpbssvbty4";
 const supabase = (0, __TURBOPACK__imported__module__$5b$project$5d2f$Downloads$2f$anhartca$2d$main$2f$anhartca$2d$main$2f$next$2d$app$2f$node_modules$2f40$supabase$2f$supabase$2d$js$2f$dist$2f$module$2f$index$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__$3c$locals$3e$__["createClient"])(SUPABASE_URL, SUPABASE_PUBLISHABLE_KEY, {
     auth: {
-        storage: localStorage,
         persistSession: true,
         autoRefreshToken: true
     }
